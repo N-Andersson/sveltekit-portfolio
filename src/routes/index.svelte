@@ -40,7 +40,5 @@
 </article>
 
 <style>
-	div {
-		background-color: background;
-	}
+
 </style>

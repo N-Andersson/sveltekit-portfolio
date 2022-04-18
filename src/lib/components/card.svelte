@@ -15,7 +15,7 @@
         <p class="leading-normal mb-4">{description}</p>
         <a href="{route}" class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <button class="bg-transparent hover:bg-gray-900 text-gray-900 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-gray-900 hover:border-transparent">Super Button</button>
-        </a>
+        </a>    
     </div>
     <!--Right Col-->
     <div class="w-full lg:w-1/2 lg:py-6 text-center">

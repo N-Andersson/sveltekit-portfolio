@@ -4,9 +4,13 @@ import adapter from '@sveltejs/adapter-auto';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter()
-	},
-
+		// hydrate the <div id="svelte"> element in src/app.html
+		 adapter: adapter({
+		   pages: 'build',
+		   assets: 'build',
+		   fallback: null
+		 })
+		},
 	preprocess: [
 		preprocess({
 			postcss: true
